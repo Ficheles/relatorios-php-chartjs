@@ -1,0 +1,8 @@
+RewriteEngine on
+AddCharset utf-8 .js
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule (.*relatorio.*) \classes\Relatorio.php [L]
+RewriteRule .* index.php [NC, L]
