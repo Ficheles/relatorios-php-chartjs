@@ -15,12 +15,11 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/assets/css/style.css">
-
 </head>
 <body>
 	<div class="container-fluid">
 <?php 
-	include_once('includes/header.php'); 
+	include_once('includes/header.php');  
 ?>
 <?php	
 	if ( isset($page) && file_exists($page)):
